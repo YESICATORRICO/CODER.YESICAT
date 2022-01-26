@@ -54,7 +54,7 @@ h2 {
    border: 50px solid #7b437e;
    font-weight: bold;
    color: white;
-background-image: linear-gradient( to left rgb(105,17,139), rgb(236, 158, 236));
+   background-image: linear-gradient( to left, rgb(105, 17, 139), rgb(236, 158, 236));
 }
 
 .arte {
