@@ -1,261 +1,252 @@
 * {
-    padding: 0;
-    margin: 0;
-   
+   padding: 0;
+   margin: 0;
+
 }
+
 /*Inicio*/
 .imagenInicio {
 
-    background-image: url(../imagenes/hongo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+   background-image: url(../imagenes/hongo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
 }
 
 nav {
-    padding: 18px;
-    display: flex;
-    justify-content: center;
-    background-color: #7b437e;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}    
+   padding: 18px;
+   display: flex;
+   justify-content: center;
+   background-color: #7b437e;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+}
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 800px;
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   width: 800px;
 }
-.blanco{
-    color: white;
+
+.blanco {
+   color: white;
 }
 
 h1 {
-    margin: 284px 150px 260px 150px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border: 10px solid #7b437e;
+   margin: 284px 150px 260px 150px;
+   color: white;
+   text-align: center;
+   border: 10px solid #7b437e;
 
 }
 
 
 h2 {
-    background-color: #7b437e;
-    color: white;
-    text-align: center;
+   background-color: #7b437e;
+   color: white;
+   text-align: center;
 }
 
 .frase {
-    background-color: #b07cb3;
-    padding: 100px;
-    border: 50px solid #7b437e;
-    font-weight: bold;
-    color: white;
+   background-color: #b07cb3;
+   padding: 100px;
+   border: 50px solid #7b437e;
+   font-weight: bold;
+   color: white;
 
 }
 
 .arte {
-    background-color: #7b437e;
-    text-align: center;
+   background-color: #7b437e;
+   text-align: center;
 }
-.imgArte{
-border-radius: 150px;
+
+.imgArte {
+   border-radius: 150px;
 }
 
 #tituloArte {
-    background-color: #7b437e;
-    border-top: 1px solid white;
-    color: white;
-    text-align: center;
-    padding: 20px;
+   background-color: #7b437e;
+   border-top: 1px solid white;
+   color: white;
+   text-align: center;
+   padding: 20px;
 }
 
 
 div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #7b437e;
-    padding: 20px 80px 20px 80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: #7b437e;
+   padding: 20px 80px 20px 80px;
 }
 
 
 
 .leerMas {
-    color: white;
-    background-color: #7b437e;
-    border: 2px solid white;
-    margin: 60px 460px 60px 600px;
-    padding: 5px;
-  
+   color: white;
+   background-color: #7b437e;
+   border: 2px solid white;
+   margin: 60px 500px 60px 500px;
+   padding: 5px;
+   text-align: center;
+
+}
+
+/*ACUARELAS -- Le incorporé GRID solo para cumplir con el desafio, no va qyuedar asi*/
+img {
+   max-width: 100%;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 4fr 4fr;
+   grid-template-areas:
+      "Cuadro1 Cuadro2 Cuadro3"
+      "Cuadro4 Cuadro5 Cuadro6"
+   ;
+}
+
+.galeria1 {
+   grid-area: Cuadro1;
+}
+
+.galeria2 {
+   grid-area: Cuadro2;
+}
+
+.galeria3 {
+   grid-area: Cuadro3;
+}
+
+.galeria4 {
+   grid-area: Cuadro4;
+}
+
+.galeria5 {
+   grid-area: Cuadro5;
+}
+
+.galeria6 {
+   grid-area: Cuadro6;
+}
+
+
+/*Mobile S*/
+@media screen and (max-width:320px) {
+   ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+   }
+
+   a {
+      display: block;
+      padding: 10px;
+      background-color: #b39fb4;
+      text-align: center;
+      margin-bottom: 5px;
+      text-decoration: none;
+
+      width: 90%;
+   }
+
+
+
+
+   .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 6fr;
+      grid-template-areas:
+
+         "Cuadro1"
+         "Cuadro2"
+         "Cuadro3"
+         "Cuadro4"
+         "Cuadro5"
+         "Cuadro6";
+   }
+
+
+}
+
+
+/*Tablet*/
+@media screen and (min-width:321px) {
+
+
+
+   .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 2fr 2fr 2fr;
+      grid-template-areas:
+         "Cuadro1 Cuadro2"
+         "Cuadro3 Cuadro4"
+         "Cuadro5 Cuadro6";
+
+   }
+}
+
+@media screen and (min-width:769px) {
+   .grid {
+      display: grid;
+      grid-template-columns: 2fr 2fr 2fr;
+      grid-template-rows: 4fr 4fr;
+      grid-template-areas:
+         "Cuadro1 Cuadro2 Cuadro3 "
+         " Cuadro4 Cuadro5 Cuadro6"
+      ;
+
+   }
+
+
 }
 
 /*galeria*/
 
-.descripcionImagen{
-    background-color: #7b437e;
-   
-    
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 50px;
-    margin: 20px;
+
+
+.descripcionImagen {
+   background-color: #7b437e;
+
+
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 50px;
+   margin: 20px;
 
 }
-.parrafoImagen{
-    border: 1px solid white;
-    padding: 30px;
+
+.parrafoImagen {
+   border: 1px solid white;
+   padding: 30px;
 }
 
 /*Contacto*/
 
-.formulario{
-    text-align: center;
-    background-color: #7b437e;
-    margin: 30px 400px;
-    color: whitesmoke;
+.formulario {
+   text-align: center;
+   background-color: #7b437e;
+   margin: 30px 400px;
+   color: whitesmoke;
 
 }
 
 footer {
-    background-color: black;
-    padding: 50px;
-    margin-bottom: 0px;
-    color: white;
+   background-color: black;
+   padding: 50px;
+   margin-bottom: 0px;
+   color: white;
 }
 
-/*Novedades*/
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+/*Aún no definí que pondré en TIENDA y posiblemente cambie o invierta el contenido entre las páginas */
 
-}
 
-.card {
-    border: solid 1px;
-    width: 220px;
-    height: 220px;
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.cardImg {
-    height: 50%;
-    width: 100%;
-}
-
-.imgMedida {
-    width: 100%;
-    height: 100%;
-}
-
-/*
-
-#gridArea {
-    display: grid;
- 
-    grid-template-areas:
- 
-       "cebecera  cabecera    cabecera"
-       " imagen1  imagen2 imagen3"
-       " imagen4  imagen5 imagen6"
-       "footer     footer   footer "
-    ;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
- }
- 
- #gridHeader{
-    grid-area: cabecera;
-    padding: 10px;
-    text-align: center;
- 
- }
- #gridImagen1 {
-    grid-area: imagen1;
-    padding: 10px;
-    text-align: center;
- 
- }
- 
- #gridImagen2 {
-    grid-area: imagen2;
-    padding: 10px;
-   
-    text-align: center;
- 
- }
- 
- #gridImagen4 {
-    grid-area: imagen3;
-    padding: 10px;
-    text-align: center;
-   
- 
- }
- 
- #gridImagen4 {
-    grid-area: imagen4;
-    padding: 10px;
-    
-    text-align: center;
- 
- }
- #gridImagen5 {
-    grid-area: imagen5;
-    padding: 10px;
-    
-    text-align: center;
- 
- }
- #gridImagen6 {
-    grid-area: imagen6;
-    padding: 10px;
-    
-    text-align: center;
- 
- }
- 
- 
- 
- 
- #gridFooter{
-    grid-area: footer;
-    padding: 10px;
-    background-color: #000000;
- 
- }
-
- /*Mobile S*//*
-@media screen and (max-width:320px)
-
- {
-     
-    #gridArea {
-       display: grid;
-       grid-template-columns: 1fr;
-       grid-template-rows: 8fr;
-       grid-template-areas:
-    
-          "cabecera"
-          "imagen1"
-          "imagen2"
-          "imagen3"
-          "imagen4"
-          "imagen5"
-          "imagen6"
-          "footer";
-    }
- 
- }
- /**/
-
- 
