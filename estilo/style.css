@@ -17,7 +17,7 @@ nav {
    padding: 18px;
    display: flex;
    justify-content: center;
-   background-color: #7b437e;
+   background-color: rgb(178, 150, 197);
    border-top: 1px solid white;
    border-bottom: 1px solid white;
 }
@@ -40,13 +40,13 @@ h1 {
    margin: 284px 150px 260px 150px;
    color: white;
    text-align: center;
-   border: 10px solid #7b437e;
+   border: 10px solid rgb(178, 150, 197);
 
 }
 
 
 h2 {
-   background-color: #7b437e;
+   background-color: rgb(178, 150, 197);
    color: white;
    text-align: center;
 }
@@ -54,14 +54,14 @@ h2 {
 .frase {
    
    padding: 100px;
-   border: 50px solid #7b437e;
+   border: 50px solid rgb(178, 150, 197);
    font-weight: bold;
    color: white;
    background-image: linear-gradient( to left, rgb(105, 17, 139), rgb(236, 158, 236));
 }
 
 .arte {
-   background-color: #7b437e;
+   background-color: rgb(178, 150, 197);
    text-align: center;
 }
 
@@ -70,7 +70,7 @@ h2 {
 }
 
 #tituloArte {
-   background-color: #7b437e;
+   background-color: rgb(178, 150, 197);
    border-top: 1px solid white;
    color: white;
    text-align: center;
@@ -82,7 +82,7 @@ div {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   background-color: #7b437e;
+   background-color: rgb(178, 150, 197);
    padding: 20px 80px 20px 80px;
 }
 
@@ -90,7 +90,7 @@ div {
 
 .leerMas {
    color: white;
-   background-color: #7b437e;
+   background-color: rgb(178, 150, 197);
    border: 2px solid white;
    margin: 60px 500px 60px 500px;
    padding: 5px;
@@ -215,7 +215,7 @@ img {
 
 
 .descripcionImagen {
-   background-color: #7b437e;
+   background-color: rgb(178, 150, 197);
 
 
    color: white;
@@ -252,6 +252,10 @@ padding: 25px 25px 25px 200px;
 
 #exampleFormControlTextarea1{
    padding: 50px 50px 50px 200px;
+}
+
+.d-grid{
+   background-color: rgb(178, 150, 197);
 }
 
 footer {
