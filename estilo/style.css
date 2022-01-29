@@ -234,12 +234,24 @@ img {
 
 /*Contacto*/
 
-.formulario {
-   text-align: center;
-   background-color: #7b437e;
-   margin: 30px 400px;
-   color: whitesmoke;
+.mb-31{
+   background-color: antiquewhite;
+   border:rgb(178, 150, 197) 25px solid;
+   padding: 1.5% 5% 1.5% 1.5%;
+   margin: 7%;
+}
+.mb-3{
+   background-color: antiquewhite;
+   border: rgb(178, 150, 197) 25px solid;
+   padding: 5%;
+   margin: 7%;
+}
+#exampleFormControlInput1{
+padding: 25px 25px 25px 200px;
+}
 
+#exampleFormControlTextarea1{
+   padding: 50px 50px 50px 200px;
 }
 
 footer {
