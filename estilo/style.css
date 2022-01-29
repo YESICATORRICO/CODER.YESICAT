@@ -28,6 +28,9 @@ ul {
    list-style: none;
    width: 800px;
 }
+a{
+   text-decoration: none;
+}
 
 .blanco {
    color: white;
