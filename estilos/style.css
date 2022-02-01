@@ -70,7 +70,7 @@ main {
 
 h2 {
     text-align: center;
-    background-color: rgb(170, 149, 182);
+    background-image: linear-gradient(to left, rgb(176, 128, 204), rgb(199, 128, 199));
     border-top: solid 3px white;
     border-bottom: solid 3px white;
     padding: 10px;
