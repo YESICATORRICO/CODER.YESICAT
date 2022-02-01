@@ -2,85 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilo/style.css">
-    <title>ARTE EN ACUARELAS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Neonderthaw&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./estilos/style.css">
+  <title>Arte en Acuarelas</title>
 </head>
 
 <body class="imagenInicio">
+  <h1> <b> ARTE EN ACUARELAS </b> </h1>
+  <header id="headerInicio">
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link active bg-dark" aria-current="page" href="index.html">INICIO</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="./secciones/acuarelas.html">ACUARELAS</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="./secciones/galeria.html">GALERIA</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="./secciones/tienda.html">TIENDA</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="./secciones/contacto.html">CONTACTO</a>
 
-    <header>
+    </nav>
 
-        <h1>ARTE EN ACUARELAS</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a class="blanco" href="index.html">INICIO</a>
-                </li>
+  </header>
 
-                <li>
-                    <a class="blanco" href="./secciones/acuarelas.html">ACUARELAS</a>
-                </li>
-                <li>
-                    <a class="blanco" href="./secciones/galeria.html">GALERIA</a>
-                </li>
-                <li>
-                    <a class="blanco" href="./secciones/tienda.html">TIENDA</a>
+  <main>
 
-                </li>
-                <li>
-                    <a class="blanco" href="./secciones/contacto.html">CONTACTO</a>
-                </li>
-            </ul>
+    <section class="frase">
 
-        </nav>
-    </header>
+      <figure class="text-end">
+        <blockquote class="blockquote">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta mollitia obcaecati doloremque expedita
+            dolores, ipsa rem voluptates autem corrupti sequi ad? Temporibus, earum dolore aliquid debitis reiciendis
+            quam quibusdam ullam.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Artista conocido <cite title="Source Title">Source Title</cite>
+        </figcaption>
+      </figure>
 
-
-
-
-    <div class="frase">
-        <figure class="text-end">
-            <blockquote class="blockquote">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit autem tempore consequatur rerum officiis vel ut nemo. Tempora atque, quod, quibusdam esse at quisquam ipsa, unde sint harum nihil laudantium?</p>
-            </blockquote>
-            <figcaption class="blockquote-footer">
-              SNombre de artistass <cite title="Source Title">Source Title</cite>
-            </figcaption>
-          </figure>
-        
-    </div>
-    <section class="arte">
-        <h2 id="tituloArte">Arte de todo tipo</h2>
-        <img class="imgArte" src="./imagenes/ciudad320.jpg" alt="ciudad">
-        <img class="imgArte" src="./imagenes/flores320.jpg" alt="flores">
-        <img class="imgArte" src="./imagenes/abs320.jpg" alt="abstracto">
-        <img class="imgArte" src="./imagenes/lago320.jpg" alt="paisaje">
     </section>
 
-    <div>
-        <h2>Ciudades</h2>
-        <h2>Flores</h2>
-        <h2>Abstracto</h2>
-        <h2>Paisajes</h2>
-    </div>
+  </main>
+  <section class="cards">
+    <h2>Arte de todo tipo</h2>
 
-    <div>
-        <a class="leerMas" href="./secciones/galeria.html">CADA CUADRO, UNA HISTORIA</a>
-    </div>
+    <section class="cardsInicio">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imagenes/lago320.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Paisajes</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
 
-    <footer>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imagenes/ciudad320.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ciudades</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
 
-        <h4>Contacto</h4>
-        <h5>Dirección:</h5>
-        <h5>Teléfono:</h5>
-        <h5>Correo:</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imagenes/flores320.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Flores</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imagenes/abs320.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Abstracto</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <article>
+
+    <a href="./secciones/tienda.html"> <button type="button" class="btn btn-dark">CUADROS EN VENTA </button> </a>
+
+
+  </article>
+  <footer>
+    <h3>REDES SOCIALES</h3>
+
+    <ul>
+      <li>Inicio</li>
+      <li>Tienda</li>
+      <li>Contacto</li>
+    </ul>
+
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
