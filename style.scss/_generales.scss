@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(170, 149, 182);
+    border-bottom: solid 3px white;
+
+}
+
+.text-sm-center {
+    color: blanchedalmond;
+}
+
+.imagenInicio {
+    background-image: url("../imagenes/hongo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+
+    margin-bottom: 0px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+
+
+
+}
+

@@ -1,0 +1,64 @@
+h1 {
+    border: solid 5px rgb(170, 149, 182);
+    padding: 2px;
+    text-align: center;
+    font-size: 40px;
+    margin: 20%;
+    color: white;
+
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#headerInicio {
+    margin-top: 20.7%;
+    border-top: solid 3px white;
+    border-bottom: solid 1px white;
+}
+
+main {
+    background-color: rgb(170, 149, 182);
+    padding: 2%;
+}
+
+
+.frase {
+    background-image: linear-gradient(to left, rgb(176, 128, 204), rgb(199, 128, 199));
+    border: solid 5px white;
+    margin: 2%;
+    padding: 5%;
+
+}
+
+h2 {
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(176, 128, 204), rgb(199, 128, 199));
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    padding: 10px;
+    color: white;
+}
+
+.cards {
+    background-color: rgb(170, 149, 182);
+    padding: 2%;
+}
+
+.cardsInicio {
+    margin: 2%;
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+article {
+    background-color: rgb(170, 149, 182);
+
+}
+
+.btn {
+    margin-left: 45%;
+    margin-bottom: 2%;
+
+}

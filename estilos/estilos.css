@@ -1,1 +1,228 @@
-/* No CSS *//*# sourceMappingURL=estilos.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background-color: #aa95b6;
+  border-bottom: solid 3px white;
+}
+
+.text-sm-center {
+  color: blanchedalmond;
+}
+
+.imagenInicio {
+  background-image: url("../imagenes/hongo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer {
+  margin-bottom: 0px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: black;
+}
+
+h1 {
+  border: solid 5px #aa95b6;
+  padding: 2px;
+  text-align: center;
+  font-size: 40px;
+  margin: 20%;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#headerInicio {
+  margin-top: 20.7%;
+  border-top: solid 3px white;
+  border-bottom: solid 1px white;
+}
+
+main {
+  background-color: #aa95b6;
+  padding: 2%;
+}
+
+.frase {
+  background-image: -webkit-gradient(linear, right top, left top, from(#b080cc), to(#c780c7));
+  background-image: linear-gradient(to left, #b080cc, #c780c7);
+  border: solid 5px white;
+  margin: 2%;
+  padding: 5%;
+}
+
+h2 {
+  text-align: center;
+  background-image: -webkit-gradient(linear, right top, left top, from(#b080cc), to(#c780c7));
+  background-image: linear-gradient(to left, #b080cc, #c780c7);
+  border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  padding: 10px;
+  color: white;
+}
+
+.cards {
+  background-color: #aa95b6;
+  padding: 2%;
+}
+
+.cardsInicio {
+  margin: 2%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+article {
+  background-color: #aa95b6;
+}
+
+.btn {
+  margin-left: 45%;
+  margin-bottom: 2%;
+}
+
+.container {
+  margin-top: 2%;
+  border: white solid 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row {
+  padding: 5%;
+}
+
+.tituloGaleria {
+  color: black;
+  border: none;
+}
+
+.pagination {
+  margin-top: 2%;
+}
+
+.tienda {
+  background-color: #aa95b6;
+  margin: 2%;
+  padding: 2%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cuadro1 {
+  grid-area: Cuadro1;
+}
+
+.cuadro2 {
+  grid-area: Cuadro2;
+}
+
+.cuadro3 {
+  grid-area: Cuadro3;
+}
+
+.cuadro4 {
+  grid-area: Cuadro4;
+}
+
+.cuadro5 {
+  grid-area: Cuadro5;
+}
+
+.cuadro6 {
+  grid-area: Cuadro6;
+}
+
+.cuadro7 {
+  grid-area: Cuadro7;
+}
+
+.cuadro8 {
+  grid-area: Cuadro8;
+}
+
+.cuadro9 {
+  grid-area: Cuadro9;
+}
+
+.cuadro10 {
+  grid-area: Cuadro10;
+}
+
+.cuadro11 {
+  grid-area: Cuadro11;
+}
+
+.cuadro12 {
+  grid-area: Cuadro12;
+}
+
+/*MS*/
+@media screen and (min-width: 648px) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 12fr;
+        grid-template-rows: 12fr;
+        grid-template-areas: "Cuadro1" "Cuadro2" "Cuadro3" "Cuadro4" "Cuadro5" "Cuadro6" "Cuadro7" "Cuadro8" "Cuadro9" "Cuadro10" "Cuadro11" "Cuadro12";
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr;
+    -ms-grid-rows: 4fr 4fr 4fr 4fr;
+        grid-template-rows: 4fr 4fr 4fr 4fr;
+        grid-template-areas: "Cuadro1 Cuadro2 Cuadro3 " "Cuadro4 Cuadro5 Cuadro6" "Cuadro7 Cuadro8 Cuadro9" "Cuadro10 Cuadro11 Cuadro12";
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    -ms-grid-rows: 4fr 4fr 4fr;
+        grid-template-rows: 4fr 4fr 4fr;
+        grid-template-areas: "Cuadro1 Cuadro2 Cuadro3 Cuadro4 " "Cuadro5 Cuadro6 Cuadro7 Cuadro8" "Cuadro9 Cuadro10 Cuadro11 Cuadro12 ";
+  }
+}
+
+.faq {
+  background-color: #aa95b6;
+}
+
+.tituloFaq {
+  margin-bottom: 0%;
+  margin-top: 5px;
+}
+
+.formulario {
+  background-image: -webkit-gradient(linear, right top, left top, from(#b080cc), to(#c780c7));
+  background-image: linear-gradient(to left, #b080cc, #c780c7);
+  margin: 10%;
+  padding: 5%;
+}
+
+.btn {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,133 @@
+.tienda {
+    background-color: rgb(170, 149, 182);
+    margin: 2%;
+    padding: 2%;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.cuadro1 {
+    grid-area: Cuadro1;
+}
+
+.cuadro2 {
+    grid-area: Cuadro2;
+}
+
+.cuadro3 {
+    grid-area: Cuadro3;
+}
+
+.cuadro4 {
+    grid-area: Cuadro4;
+}
+
+.cuadro5 {
+    grid-area: Cuadro5;
+}
+
+.cuadro6 {
+    grid-area: Cuadro6;
+}
+
+.cuadro7 {
+    grid-area: Cuadro7;
+}
+
+.cuadro8 {
+    grid-area: Cuadro8;
+}
+
+.cuadro9 {
+    grid-area: Cuadro9;
+}
+
+.cuadro10 {
+    grid-area: Cuadro10;
+}
+
+.cuadro11 {
+    grid-area: Cuadro11;
+}
+
+.cuadro12 {
+    grid-area: Cuadro12;
+}
+
+/*MS*/
+@media screen and (min-width:648px) {
+
+    .grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 12fr;
+        grid-template-areas:
+
+
+            "Cuadro1"
+            "Cuadro2"
+            "Cuadro3"
+            "Cuadro4"
+            "Cuadro5"
+            "Cuadro6"
+            "Cuadro7"
+            "Cuadro8"
+            "Cuadro9"
+            "Cuadro10"
+            "Cuadro11"
+            "Cuadro12";
+    }
+
+}
+
+@media screen and (min-width:768px) and (orientation: landscape) {
+    .grid {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 4fr 4fr 4fr 4fr;
+        grid-template-areas:
+            "Cuadro1 Cuadro2 Cuadro3 "
+            "Cuadro4 Cuadro5 Cuadro6"
+            "Cuadro7 Cuadro8 Cuadro9"
+            "Cuadro10 Cuadro11 Cuadro12"
+        ;
+
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 4fr 4fr 4fr;
+        grid-template-areas:
+            "Cuadro1 Cuadro2 Cuadro3 Cuadro4 "
+            "Cuadro5 Cuadro6 Cuadro7 Cuadro8"
+            "Cuadro9 Cuadro10 Cuadro11 Cuadro12 "
+        ;
+
+    }
+}
+
+
+
+.faq {
+    background-color: rgb(170, 149, 182);
+
+
+}
+
+.tituloFaq {
+    margin-bottom: 0%;
+    margin-top: 5px;
+}
+
+
+
+
