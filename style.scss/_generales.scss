@@ -3,22 +3,21 @@
     margin: 0;
 }
 
-.nav {
-    background-color: rgb(170, 149, 182);
-    border-bottom: solid 3px white;
-
-}
-
-.text-sm-center {
-    color: blanchedalmond;
-}
-
 .imagenInicio {
     background-image: url("../imagenes/hongo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    nav {
+      background-color: $lila;
+      border-bottom: solid 3px white;
+      a{
+        color: blanchedalmond;
+       }
+    }
 }
+
+
 
 footer {
 
@@ -26,8 +25,5 @@ footer {
     padding: 10px;
     font-weight: bold;
     background-color: black;
-
-
-
 }
 

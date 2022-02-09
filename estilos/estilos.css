@@ -3,20 +3,20 @@
   margin: 0;
 }
 
-.nav {
-  background-color: #aa95b6;
-  border-bottom: solid 3px white;
-}
-
-.text-sm-center {
-  color: blanchedalmond;
-}
-
 .imagenInicio {
   background-image: url("../imagenes/hongo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.imagenInicio nav {
+  background-color: #aa95b6;
+  border-bottom: solid 3px white;
+}
+
+.imagenInicio nav a {
+  color: blanchedalmond;
 }
 
 footer {
