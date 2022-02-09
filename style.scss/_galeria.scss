@@ -4,17 +4,13 @@
     margin-top: 2%;
     border: white solid 2px;
     align-items: center;
-}
-
-.row {
-    padding: 5%;
-}
-
-.tituloGaleria {
-    color: black;
-    border: none;
-
-
+    article{
+        padding: 5%;
+           h2 {
+             color: black;
+           border: none;
+            }
+     }
 }
 
 

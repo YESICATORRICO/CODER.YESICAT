@@ -95,11 +95,11 @@ article {
           align-items: center;
 }
 
-.row {
+.container article {
   padding: 5%;
 }
 
-.tituloGaleria {
+.container article h2 {
   color: black;
   border: none;
 }
