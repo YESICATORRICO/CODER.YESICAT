@@ -33,11 +33,7 @@ footer {
       justify-content: space-around;
 }
 
-footer h3 {
-  color: white;
-}
-
-footer .footer1 {
+.footer1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,6 +41,14 @@ footer .footer1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+h3 {
+  color: white;
+}
+
+.linea {
+  text-decoration: none;
 }
 
 h1 {
@@ -74,6 +78,14 @@ main {
   border: solid 5px white;
   margin: 2%;
   padding: 5%;
+}
+
+#picasso {
+  color: white;
+}
+
+.blockquote-footer {
+  color: white;
 }
 
 h2 {
@@ -108,6 +120,131 @@ article button {
   margin-bottom: 2%;
 }
 
+#blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+  border-bottom: 1px solid black;
+}
+
+.blogHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogHeader span {
+  color: #fdd8ee;
+}
+
+.blogHeader h3 {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+}
+
+.blogContenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blogBox {
+  width: 350px;
+  background-color: #fffbfb;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.blogImg {
+  width: 100%;
+  height: auto;
+}
+
+.blogImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.blogTexto {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blogTexto span {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.blogTexto p {
+  font-size: 0.9rem;
+  margin: 20px 0px;
+}
+
+.blogTexto .blogTitulo {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.blogTexto .blogTitulo:hover {
+  color: violet;
+  -webkit-transition: all ease  0,3s;
+  transition: all ease  0,3s;
+}
+
+.blogTexto a {
+  color: black;
+  text-decoration: none;
+}
+
+.blogTexto a:hover {
+  color: violet;
+  -webkit-transition: all ease 0,3s;
+  transition: all ease 0,3s;
+}
+
 .container {
   margin-top: 2%;
   border: white solid 2px;
@@ -121,8 +258,12 @@ article button {
 }
 
 .container article h2 {
-  color: black;
+  color: white;
   border: none;
+}
+
+.container article p {
+  color: white;
 }
 
 .pagination {
@@ -199,7 +340,7 @@ img {
         grid-template-columns: 1fr;
     -ms-grid-rows: 12fr;
         grid-template-rows: 12fr;
-        grid-template-areas: "Cuadro1" "Cuadro2" "Cuadro3" "Cuadro4" "Cuadro5" "Cuadro6" "Cuadro7" "Cuadro8" "Cuadro9" "Cuadro10" "Cuadro11" "Cuadro12";
+        grid-template-areas: "Cuadro1" "Cuadro2" "Cuadro3" "Cuadro4" "Cuadro5" "Cuadro6" "Cuadro7" "Cuadro8" "Cuadro9" "Cuadro10" "Cuadro11" "Cuadro12";
   }
 }
 
@@ -211,7 +352,7 @@ img {
         grid-template-columns: 2fr 2fr 2fr;
     -ms-grid-rows: 4fr 4fr 4fr 4fr;
         grid-template-rows: 4fr 4fr 4fr 4fr;
-        grid-template-areas: "Cuadro1 Cuadro2 Cuadro3 " "Cuadro4 Cuadro5 Cuadro6" "Cuadro7 Cuadro8 Cuadro9" "Cuadro10 Cuadro11 Cuadro12";
+        grid-template-areas: "Cuadro1 Cuadro2 Cuadro3 " "Cuadro4 Cuadro5 Cuadro6" "Cuadro7 Cuadro8 Cuadro9" "Cuadro10 Cuadro11 Cuadro12";
   }
 }
 
@@ -223,7 +364,7 @@ img {
         grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
     -ms-grid-rows: 4fr 4fr 4fr;
         grid-template-rows: 4fr 4fr 4fr;
-        grid-template-areas: "Cuadro1 Cuadro2 Cuadro3 Cuadro4 " "Cuadro5 Cuadro6 Cuadro7 Cuadro8" "Cuadro9 Cuadro10 Cuadro11 Cuadro12 ";
+        grid-template-areas: "Cuadro1 Cuadro2 Cuadro3 Cuadro4 " "Cuadro5 Cuadro6 Cuadro7 Cuadro8" "Cuadro9 Cuadro10 Cuadro11 Cuadro12 ";
   }
 }
 
@@ -234,6 +375,10 @@ img {
 .tituloFaq {
   margin-bottom: 0%;
   margin-top: 5px;
+}
+
+.pTienda {
+  color: white;
 }
 
 .formulario {

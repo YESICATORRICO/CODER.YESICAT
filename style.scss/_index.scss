@@ -1,3 +1,4 @@
+
 h1 {
     border: solid 5px $lila;
     padding: 2px;
@@ -28,14 +29,21 @@ main {
     padding: 5%;
 
 }
+#picasso{
+    color: $blanco;
+}
+.blockquote-footer{
+    color: $blanco;
+}
 
 h2 {
     text-align: center;
+    
     background-image: linear-gradient(to left, rgb(176, 128, 204), rgb(199, 128, 199));
     border-top: solid 3px white;
     border-bottom: solid 3px white;
     padding: 10px;
-    color: white;
+    color: $blanco;
 }
 
 .cards {
@@ -54,8 +62,9 @@ h2 {
 
 article {
     background-color: $lila;
-       button {
-         margin-left: 45%;
-         margin-bottom: 2%;
+        button {
+    margin-left: 45%;
+    margin-bottom: 2%;
+
         }
 }

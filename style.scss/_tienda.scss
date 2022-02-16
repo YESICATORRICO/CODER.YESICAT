@@ -1,5 +1,5 @@
 .tienda {
-    background-color: rgb(170, 149, 182);
+    background-color: $lila;
     margin: 2%;
     padding: 2%;
 
@@ -118,7 +118,7 @@ img {
 
 
 .faq {
-    background-color: rgb(170, 149, 182);
+    background-color: $lila;
 
 
 }
@@ -128,6 +128,8 @@ img {
     margin-top: 5px;
 }
 
-
+.pTienda{
+    color: $blanco;
+}
 
 

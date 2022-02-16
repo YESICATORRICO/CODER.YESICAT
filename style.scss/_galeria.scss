@@ -1,20 +1,21 @@
-
-
 .container {
     margin-top: 2%;
-    border: $blanco solid 2px;
+    border: white solid 2px;
     align-items: center;
-    article{
-        padding: 5%;
-           h2 {
-             color: black;
-           border: none;
-            }
-     }
+    article {
+    padding: 5%;
+             h2 {
+    color: $blanco;
+    border: none;
+  }
+                p{
+      color: $blanco;
+                 }
+ }
 }
+
 
 
 .pagination {
     margin-top: 2%;
 }
-
