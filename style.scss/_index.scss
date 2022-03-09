@@ -1,70 +1,137 @@
-
-h1 {
-    border: solid 5px $lila;
-    padding: 2px;
-    text-align: center;
-    font-size: 40px;
-    margin: 20%;
-    color: $blanco;
-
-    font-family: 'Gloria Hallelujah', cursive;
+.tracking-in-expand-fwd {
+  -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  color: $blanco;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin: 20%;
 }
 
 #headerInicio {
-    margin-top: 20.7%;
-    border-top: solid 3px white;
-    border-bottom: solid 1px white;
+  margin-top: 20.7%;
+  border-top: solid 3px $blanco;
+  border-bottom: solid 1px $blanco;
 }
 
 main {
-    background-color: $lila;
-    padding: 2%;
+  background-image: linear-gradient(to left, #636fa4, #e8cbc0);
+  padding: 2%;
 }
-
 
 .frase {
-    background-image: linear-gradient(to left, rgb(176, 128, 204), rgb(199, 128, 199));
-    border: solid 5px white;
-    margin: 2%;
-    padding: 5%;
+  background-image: url(../imagenes/sun.jpg);
+  border: solid 5px $blanco;
+  margin: 2%;
+  padding: 5%;
+  opacity: 0.9;
+}
 
+#picasso {
+  color: $blanco;
 }
-#picasso{
-    color: $blanco;
-}
-.blockquote-footer{
-    color: $blanco;
+
+.blockquote-footer {
+  color: $blanco;
+
 }
 
 h2 {
-    text-align: center;
-    
-    background-image: linear-gradient(to left, rgb(176, 128, 204), rgb(199, 128, 199));
-    border-top: solid 3px white;
-    border-bottom: solid 3px white;
-    padding: 10px;
-    color: $blanco;
+  text-align: center;
+  background-color: $lila;
+  border-top: solid 3px $blanco;
+  border-bottom: solid 3px $blanco;
+  padding: 10px;
+  color: $blanco;
 }
 
 .cards {
-    background-color: $lila;
-    padding: 2%;
+  background-image: linear-gradient(to left, #636fa4, #e8cbc0);
+  padding: 2%;
 }
 
 .cardsInicio {
-    margin: 2%;
-
+  margin: 2%;
 }
 
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 
 article {
-    background-color: $lila;
-        button {
+  background-image: linear-gradient(to left, #636fa4, #e8cbc0);
+
+  button {
     margin-left: 45%;
     margin-bottom: 2%;
 
-        }
+  }
+}
+
+/*Animación título principal*/
+@-webkit-keyframes blink-1 {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink-1 {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }

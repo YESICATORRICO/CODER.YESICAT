@@ -1,12 +1,38 @@
+.fondo {
+    background-color: black;
+}
+
+nav {
+    border-bottom: solid 3px $blanco;
+}
+
+a {
+    color: #e8cbc0;
+}
+
+
 .tienda {
-    background-color: $lila;
+    background-image: linear-gradient(to left, #636fa4, #e8cbc0);
     margin: 2%;
     padding: 2%;
 
 }
 
-img {
+.pTienda {
+    color: $blanco;
+}
+
+.imgOpacity {
     max-width: 100%;
+    opacity: 0.7;
+    transition: width 2s;
+    filter: alpha(opacity=40);
+}
+
+.imgOpacity:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    width: 130%;
 }
 
 .cuadro1 {
@@ -59,6 +85,7 @@ img {
 
 /*MS*/
 @media screen and (min-width:648px) {
+
 
     .grid {
         display: grid;
@@ -126,10 +153,6 @@ img {
 .tituloFaq {
     margin-bottom: 0%;
     margin-top: 5px;
-}
-
-.pTienda{
     color: $blanco;
+    text-align: center;
 }
-
-
