@@ -1,18 +1,18 @@
 [
     {
         "cuadro":" ./img/gal3208.jpg",
-        "nombre":"Mapa"
+        "nombre":"Perro"
     },
     {
         "cuadro":"./img/gal32022.jpg",
-        "nombre":"Mapa"
+        "nombre":"Ramo"
     },
     {
         "cuadro":"./img/gal32024.jpg",
-        "nombre":"amapa"
+        "nombre":"Flores"
     },
     {
         "cuadro":"./img/gal32028.jpg",
-        "nombre":"amapa"
+        "nombre":"Paris"
     }
 ]
